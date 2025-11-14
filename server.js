@@ -1,0 +1,19 @@
+// server.js
+const express = require('express');
+const app = express();
+const PORT = 3000;
+
+// JSON 파싱 미들웨어
+app.use(express.json());
+
+// 기본 라우트
+app.get('/', (req, res) => {
+  res.send('Hello, Express Server!');
+});
+
+// 서버 실행
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+
