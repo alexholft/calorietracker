@@ -13,5 +13,13 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexholft/calorietracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexholft/calorietracker/issues"
+  },
+  "homepage": "https://github.com/alexholft/calorietracker#readme"
 }
